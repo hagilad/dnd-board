@@ -1,4 +1,4 @@
-.App {
+.background_images {
   position: relative;
   width: 100%;
   height: 100vh;
@@ -6,16 +6,17 @@
   background-position: center;
 }
 
-.dropzone {
+.maps_button {
   position: absolute;
+  background: transparent;
+  border: none;
+  outline: none;
   top: 0px;
   right: 0px;
-  border: none;
   padding: 0px;
-  cursor: pointer;
 }
 
-.button {
+.revert_button {
   position: absolute;
   background: transparent;
   border: none;
@@ -30,4 +31,23 @@
   height: 60px; /* Adjust the size as needed */
   margin-bottom: 0px; /* Optional: Adjust the spacing */
   border-radius: 25%
+}
+
+.image_list {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image_link {
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
