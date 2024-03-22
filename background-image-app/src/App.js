@@ -12,7 +12,7 @@ function App() {
     <Router>
       <div className="background_images">
         <Routes>
-          <Route path="/" element={<HomePage initialBackgroundImage={initialBackgroundImage} />} />
+          <Route path="/" element={<HomePage initialMapImage={initialBackgroundImage} />} />
           <Route path="/maps" element={<MapSelection />} />
         </Routes>
       </div>
